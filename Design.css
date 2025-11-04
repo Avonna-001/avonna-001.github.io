@@ -35,49 +35,53 @@ body {
 
 /* Navigation Bar */
 .topnav {
-    flex: 1;
     background-color: #fdf6eb;
-    overflow: hidden;
     border: double;
     border-color: #cdc1b3;
     border-radius: 50px;
+    padding: 6px 16px;
+
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    gap: 173px;
-    padding: 6px 10px;
+    justify-content: space-between; /* pushes navright to the right */
     font-family: chivo;
     font-weight: 200;
 }
 
-.navleft a {
-    float: inline-start;
+.navleft {
     display: flex;
+    gap: 10px;
+}
+
+.navleft a {
     color: #0e112b;
     padding: 14px 14px;
     text-decoration: none;
     font-size: 17px;
-    border-style: solid;
-    border-color: #cdc1b3;
+
+    border: solid thin #cdc1b3;
     border-radius: 50px;
-    border-width: thin;
-    justify-content: left;
+
+    display: flex;
+    align-items: center;
+}
+
+.navright {
+    margin-left: auto; /* pushes this section to the right */
 }
 
 .navright a {
-    float: right;
-    display: flex;
     color: #0e112b;
-    padding: 14px 14px;
+    padding: 14px 20px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 396;
-    border-style: solid;
-    border-color: #cdc1b3;
+
+    border: solid medium #cdc1b3;
     border-radius: 50px;
-    border-width: medium;
-    justify-content: right;
-    align-content: flex-end;
+
+    display: flex;
+    align-items: center;
 }
 
 .topnav a:hover {
@@ -172,13 +176,18 @@ body {
 }
 
 .hero-section {
-    align-items: center;
+    align-content: center;
     gap: 133px;
     margin-top: 40px;
     border-radius: 23px;
     border-bottom: 2px solid #cdc1b3;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.hero-section h1,
+.hero-section h2 {
+    text-align: center;
 }
 
 .feature-table {
