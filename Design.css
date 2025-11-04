@@ -1,0 +1,301 @@
+/* Fonts of the document */
+@import url("https://fonts.googleapis.com/css2?family=Cambo&family=Chivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* Main Components*/
+h1 {
+    font-family: mulish;
+    font-weight: 329;
+    font-size: 56px;
+    color: #0e112b;
+    align-content: center;
+}
+
+h2 {
+    font-family: mulish;
+    font-weight: 200;
+    font-size: 33px;
+    color: #0e112b;
+    align-content: center;
+}
+
+p {
+    font-family: chivo;
+    font-weight: 200;
+    font-size: 14px;
+    color: #0e112b;
+    text-align: justify;
+}
+
+body {
+    align-content: center;
+    background-color: #fdf6eb;
+}
+
+/* Navigation Bar */
+.topnav {
+    flex: 1;
+    background-color: #fdf6eb;
+    overflow: hidden;
+    border: double;
+    border-color: #cdc1b3;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 173px;
+    padding: 6px 10px;
+    font-family: chivo;
+    font-weight: 200;
+}
+
+.navleft a {
+    float: inline-start;
+    display: flex;
+    color: #0e112b;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-style: solid;
+    border-color: #cdc1b3;
+    border-radius: 50px;
+    border-width: thin;
+    justify-content: left;
+}
+
+.navright a {
+    float: right;
+    display: flex;
+    color: #0e112b;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 396;
+    border-style: solid;
+    border-color: #cdc1b3;
+    border-radius: 50px;
+    border-width: medium;
+    justify-content: right;
+    align-content: flex-end;
+}
+
+.topnav a:hover {
+    background-color: #cdc1b3;
+    color: black;
+}
+
+/* Art Gallery Page */
+.Artworkcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.Artworkcard {
+    align-content: center;
+    background-color: #fdf6eb;
+    border-radius: 20px;
+    border-color: #cdc1b3;
+    border-style: double;
+    border-width: medium;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #cdc1b3;
+    font-family: chivo;
+    font-weight: 101;
+}
+
+.Artworkcard:hover {
+    background-color: #cdc1b3;
+    color: white;
+}
+
+.Artworktype {
+    display: inline-block;
+    border: 1px solid #0e112b;
+    padding: 2px 11px;
+    border-radius: 123px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+
+.details p {
+    font-size: 21.3em;
+    line-height: 1.5;
+    color: #e09e41;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* About Us Page */
+#Header {
+    display: flex;
+    padding: 0 208px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #cdc1b3;
+    border-radius: 222px;
+    border-width: thin;
+    justify-content: center;
+    background-color: #fdf6eb;
+    border-bottom: 5px solid #cdc1b3;
+}
+
+.Aboutcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+/* Index Page*/
+#AvonnaStudio {
+    text-align: center;
+}
+
+#Unorderedlist {
+    text-align: left;
+    font-family: chivo;
+    font-weight: 200;
+    font-size: 14px;
+    color: #0e112b;
+}
+
+.hero-section {
+    align-items: center;
+    gap: 133px;
+    margin-top: 40px;
+    border-radius: 23px;
+    border-bottom: 2px solid #cdc1b3;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.feature-table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-family: chivo;
+    font-weight: 51;
+    font-size: 14px;
+    color: #0e112b;
+}
+
+.feature-table th,
+.feature-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #cdc1b3;
+    text-align: left;
+    font-size: 14px;
+}
+
+.feature-table th {
+    background-color: #cdc1b3;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 110px;
+    text-align-last: center;
+}
+
+.feature-table td {
+    font-size: 12px;
+    font-weight: 257;
+    text-align-last: center;
+}
+
+.feature-table tr:last-child td {
+    border-bottom: none;
+}
+
+.feature-table tr:hover {
+    background-color: #cdc1b3;
+}
+
+/* Shop page*/
+.shop-section {
+    padding: 40px 40px;
+    background: #fdf6eb;
+    text-align: center;
+}
+
+.shop-title {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 35px;
+}
+
+.shop-img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    margin-bottom: 14px;
+    border-radius: 20px;
+}
+
+.shop-date {
+    font-size: 12px;
+    color: #666;
+}
+
+.shop-tag {
+    font-size: 0.75rem;
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.shop-name {
+    font-size: 20px;
+    margin: 0 0 0;
+    font-weight: 600;
+    text-align: left;
+}
+
+.shop-desc {
+    font-size: 0.95rem;
+    color: #444;
+    margin: 10px 0 -10px;
+    line-height: 1.4;
+}
+
+.shop-link {
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: auto;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+#footer {
+    background-color: #fdf6eb;
+    padding: 10px;
+    font-family: chivo;
+    font-weight: 200;
+    font-size: 12px;
+}
